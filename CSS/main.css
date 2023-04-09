@@ -63,18 +63,19 @@
 }
 
 .hero-scroll-btn a {
-    color :white
+    color :white;
 }
 
 /* Navbar section */
 
-.navbar-card {
-    background-color: #333745;
+.navbar-card-active {
+    background-color: black;
+    opacity: 0.5;
 }
 
 /* about me section */
 
-.about-me {
+.about-us {
     width: 100vw;
     height: 100vh;
     background-color: whitesmoke;
@@ -85,4 +86,20 @@
     height: 5px;
     z-index: 3;
     border-radius: 15px;
+}
+
+/* general description section */
+
+.general-description {
+    width: 100vw;
+    height: 100vh;
+    background-color: whitesmoke;
+}
+
+.general-description-text-container {
+    width: 90%;
+    height: 90%;
+    border-radius: 15px;
+    color: white;
+    background-color: #eb5058;
 }
