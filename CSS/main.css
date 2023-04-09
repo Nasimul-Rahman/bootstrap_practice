@@ -14,7 +14,7 @@
     left: 0;
     right: 0;
     z-index: 4;
-    background-color: black;
+    background-color: #eb5058;
 }
 
 .dropdown-nav__closeNavBtn {
@@ -57,6 +57,26 @@
 
 .hero-scroll-btn {
     position: absolute;
+    color: white;
     bottom: 40px;
     z-index: 2;
+}
+
+.hero-scroll-btn a {
+    color :white
+}
+
+/* about me section */
+
+.about-me {
+    width: 100vw;
+    height: 100vh;
+    background-color: whitesmoke;
+}
+
+.sep {
+    background-color:#eb5058;
+    height: 5px;
+    z-index: 3;
+    border-radius: 15px;
 }
