@@ -66,6 +66,12 @@
     color :white
 }
 
+/* Navbar section */
+
+.navbar-card {
+    background-color: #333745;
+}
+
 /* about me section */
 
 .about-me {
