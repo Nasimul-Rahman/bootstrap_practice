@@ -103,3 +103,17 @@
     color: white;
     background-color: #eb5058;
 }
+
+/* Preloader Section */
+
+#preloader {
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    background: black url('media/preloader_placeholder.gif') no-repeat center center;
+    background-size: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
