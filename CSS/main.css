@@ -3,6 +3,10 @@
     --bs-body-font-family: 'Montserrat', sans-serif;
 }
 
+body {
+    overflow-x: hidden ;
+}
+
 .header {
     z-index: 3;
 }
@@ -135,12 +139,12 @@
     justify-content: center;
     align-items: center;
 
-    transition:1s ease
+    transition:1.5s ease
 }
 
 /* Porjects Section */
 
-.projects {
+.products {
     height: 100vh;
     width: 100vw;
     background-color: whitesmoke;
@@ -151,17 +155,17 @@
     align-items: center;
 }
 
-.projects_container {
+.products_container {
     display: flex;
     flex-direction: column;
     justify-content: start;
     align-items: center;
     width: 90%;
     height: auto;
-    overflow-y: scroll;
+    overflow-x: hidden;
 }
 
-.project_card {
+.product_card {
     display: flex;
 
     background-color: #eb5058;
@@ -170,7 +174,7 @@
     max-height: 180px;
 }
 
-.project_card_img {
+.product_card_img {
     background-image: url('media/image_placeholder.png');
     background-size: cover;
     background-repeat: no-repeat;
@@ -178,7 +182,7 @@
     width: 35%;
 }
 
-.project_card_text {
+.product_card_text {
     width: 65%;
 }
 
