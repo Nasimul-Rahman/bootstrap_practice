@@ -27,7 +27,7 @@
 
 .hero {
     position: relative;
-    height: 100vh;
+    height: 75vh;
     width: 100%;
     background-color: var(--primary-color);
     overflow: hidden;
@@ -94,7 +94,7 @@
 
 .general-description {
     width: 100vw;
-    height: 100vh;
+    height: 70vh;
     background-color: whitesmoke;
     overflow: hidden;
 }
