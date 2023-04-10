@@ -184,11 +184,11 @@
 
 /* Scroll Effect  */
 
-/* .hidden {
+.hidden {
     opacity: 0;
     transition: ease 1s;
 }
 
 .show {
     opacity: 1;
-} */
+}
