@@ -26,7 +26,8 @@
     <link rel="stylesheet" href="CSS/main.css">
 
     <!-- Local Javascript -->
-    <script src="JS/main.js" async></script>
+    <script src="JS/main.js" defer></script>
+    <script src="JS/scroll.js" defer></script>
 </head>
 <body>
 
@@ -37,9 +38,6 @@
     </div>
 
     <!-- Intro End -->
-
-    <!-- Preloader Start -->
-    <!-- Preloader End -->
 
     <!-- Header Start -->
 
@@ -154,7 +152,7 @@
 
      <!-- Hero Start -->
 
-     <section class="hero">
+     <section class="hidden hero">
         <div class="hero-overlay"></div>
 
         <div class="hero-text h-100 w-75 container-xxl position-relative">
@@ -183,15 +181,15 @@
      <!-- General Description Start -->
 
      <section class="general-description d-flex justify-content-center align-items-center" id="general-description">
-        <div class="general-description-text-container d-flex flex-column justify-content-center align-items-center">
-            <img src="CSS/media/logo_with_background.jpg" class="shadow-lg m-4 img-fluid rounded-circle m-0" width="100px" heigh="200px" alt="CRP logo">
-            <p class="w-75 text-center m-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+        <div class="hidden h-auto p-4 general-description-text-container d-flex flex-column justify-content-start align-items-center">
+            <img src="CSS/media/logo_with_background.jpg" class="shadow-lg img-fluid rounded-circle m-0" width="100px" heigh="200px" alt="CRP logo">
+            <p class="w-75 text-center m-3 fs-6">Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
                 Lorem Ipsum has been the industry's standard dummy text ever since the 
                 1500s, when an unknown printer took a galley of type and scrambled it to 
                 make a type specimen book. It has survived not only five centuries, but 
                 also the leap into electronic typesetting, remaining essentially 
                 unchanged.</p>
-                <button type="button" class="m-4 btn btn-outline-danger">Learn More</button>
+            <button type="button" class="btn btn-light">Learn More</button>
         </div>
      </section>
 
@@ -199,7 +197,7 @@
 
      <!-- About Me Start -->
 
-     <section class="about-us" id="about-us">
+     <section class="hidden about-us" id="about-us">
         <div class="h-100 w-100 about-me-text-container flex-column
         d-flex justify-content-center align-items-center">
             <h2>About Us</h2>
