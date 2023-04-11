@@ -137,7 +137,7 @@ body {
 
     display: flex;
     flex-direction: column;
-    justify-content: start;
+    justify-content: center;
     align-items: center;
 
     transition: 1.5s ease
