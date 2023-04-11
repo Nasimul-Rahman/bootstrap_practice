@@ -12,7 +12,7 @@ let logo = document.querySelector('.logo_animation')
 
 window.addEventListener('load', function() {
     setTimeout(opacityChange, 3000);
-    setTimeout(displayNone, 3500);
+    setTimeout(displayNone, 4000);
 })
 
 function opacityChange() {
