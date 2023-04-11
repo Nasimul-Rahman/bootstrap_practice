@@ -11,8 +11,8 @@ let intro = document.querySelector('.intro')
 let logo = document.querySelector('.logo_animation')
 
 window.addEventListener('load', function() {
-    setTimeout(opacityChange, 2500);
-    setTimeout(displayNone, 2900);
+    setTimeout(opacityChange, 3000);
+    setTimeout(displayNone, 3500);
 })
 
 function opacityChange() {

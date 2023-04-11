@@ -144,10 +144,10 @@ body {
 }
 
 #intro_img_1 {
-    opacity: 0;
+    opacity: 1;
     position: relative;
     animation-name: example;
-    animation-duration: 3s;
+    animation-duration: 5s;
 }
 
 #intro_img_2 {
@@ -155,7 +155,7 @@ body {
     position: relative;
     animation-name: example;
     animation-delay: 500ms;
-    animation-duration: 3s;
+    animation-duration: 5s;
 }
 
 #intro_img_3 {
@@ -163,7 +163,7 @@ body {
     position: relative;
     animation-name: example;
     animation-delay: 1000ms;
-    animation-duration: 3s;
+    animation-duration: 5s;
 }
 
 /* @keyframes fadeIn {
@@ -172,7 +172,8 @@ body {
  }  */
 
 @keyframes example {
-    0%   {left:-200px; top:0px; opacity: 0; display: none;}
+    0%   {left:-200px; top:0px; opacity: 0;}
+    50% {left:0px; top:0px; opacity: 1; }
     100% {left:0px; top:0px; opacity: 1; }
 }
 
