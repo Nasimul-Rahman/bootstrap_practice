@@ -220,6 +220,46 @@ body {
     width: 65%;
 }
 
+/* Clients Section */
+
+.clients {
+    height: 100vh;
+    width: 100%;
+    background-color: whitesmoke;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+
+.clients_container {
+    width: 90%;
+    height: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+
+.clients_card {
+    width: 100%;
+    min-height: 300px;
+    background-color: #eb5058;
+}
+
+.clients_card_img {
+    background-image: url('media/image_placeholder.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    width: 100%;
+    min-height: 75%;
+}
+
 /* Footer */
 
 footer {
