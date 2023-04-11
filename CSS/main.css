@@ -136,11 +136,32 @@ body {
     height: 100vh;
 
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 
-    transition:1.5s ease
+    transition: 1.5s ease
 }
+
+#intro_img_1 {
+    animation: fadeIn 2s;
+    animation-iteration-count: 1;
+}
+
+#intro_img_2 {
+    animation: fadeIn 2s;
+    animation-iteration-count: 1;
+}
+
+#intro_img_3 {
+    animation: fadeIn 2s;
+    animation-iteration-count: 1;
+}
+
+@keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+ } 
 
 /* Porjects Section */
 
