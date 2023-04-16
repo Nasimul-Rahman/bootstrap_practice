@@ -1,5 +1,5 @@
 :root {
-    --bs-body-bg: rgb(65,63,63);
+    --bs-body-bg: whitesmoke;
     --bs-body-font-family: 'Montserrat', sans-serif;
 }
 
@@ -274,6 +274,11 @@ footer {
     align-items: center;
 }
 
+.footer_block {
+    width: 100%;
+    height: 9vh;
+    background-color: whitesmoke;
+}
 /* Scroll Effect  */
 
 .hidden {
