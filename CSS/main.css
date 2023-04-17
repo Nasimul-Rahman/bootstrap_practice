@@ -279,6 +279,36 @@ footer {
     height: 9vh;
     background-color: whitesmoke;
 }
+
+
+/* Gallery */
+
+.gallery {
+    height: 100vh;
+    width: 100%;
+    background-color: whitesmoke;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+
+.gallery_card {
+    width: 100%;
+    min-height: 300px;
+    background-color: #eb5058;
+}
+
+.gallery_card_img {
+    background-image: url('media/image_placeholder.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    width: 100%;
+    min-height: 100%;
+}
+
 /* Scroll Effect  */
 
 .hidden {
