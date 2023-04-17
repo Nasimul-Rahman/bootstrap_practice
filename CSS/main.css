@@ -300,6 +300,18 @@ footer {
     background-color: #eb5058;
 }
 
+.gallery_cards_container {
+    width: 90%;
+    height: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+
 .gallery_card_img {
     background-image: url('media/image_placeholder.png');
     background-size: cover;
