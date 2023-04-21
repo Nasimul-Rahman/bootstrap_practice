@@ -33,10 +33,10 @@ body {
     position: relative;
     height: 92vh;
     width: 100%;
-    background-color: var(--primary-color);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(235,80,88,1) 100%);
     overflow: hidden;
 
-    background-image: url('media/second_slide.jpg');
+    /* background-image: url('media/second_slide.jpgs'); */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
