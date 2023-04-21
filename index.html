@@ -6,7 +6,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CRP</title>
+    <title>Comilla Rotography Process</title>
 
     <!-- Bootstrap Stylesheet and Scripts -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
@@ -24,6 +24,7 @@
     
     <!-- Local Stylesheet -->
     <link rel="stylesheet" href="CSS/main.css">
+    <link rel="stylesheet" href="CSS/gallery.css">
 
     <!-- Local Javascript -->
     <script src="JS/main.js" defer></script>
@@ -262,23 +263,18 @@
 
     <!-- Clients Section End -->
 
-    <!-- Gallery Section Start -->
-    <section class="gallery pt-5">
+    <!-- Gallery Start -->
+    <section class="gallery mt-5">
         <h2>Gallery</h2>
         <div class="sep w-25 m-4"></div>
-        <div class="gallery_cards_container">
-            <div class="hidden gallery_card m-3">
-                <div class="gallery_card_img"></div>
-            </div>
-            <div class="hidden gallery_card m-3">
-                <div class="gallery_card_img"></div>
-            </div>
-            <div class="hidden gallery_card m-3">
-                <div class="gallery_card_img"></div>
-            </div>
-            <button type="button" class="hidden btn btn-danger m-3 p-3">See More</button>
+        <section class="image_gallery">
+            <img src="CSS/media/Grid_Gallery_Img/img1.jpg" class="image_gallery_card hidden">
+            <img src="CSS/media/Grid_Gallery_Img/img2.jpg" class="image_gallery_card hidden">
+            <img src="CSS/media/Grid_Gallery_Img/img3.jpg" class="image_gallery_card hidden">  
+        </section>
+        <button type="button" class="hidden btn btn-danger m-3 p-3" onclick="window.location.href = 'gallery.html'">See More</button>
     </section>
-    <!-- Galery Section End -->
+    <!-- Gallery End -->
 
     <!-- Footer Section Start-->
     <div class="footer_block"></div>
