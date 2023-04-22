@@ -1,3 +1,19 @@
+#navbar {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 4;
+    background-color: #eb5058;
+}
+
+.dropdown-nav__closeNavBtn {
+    position: absolute;
+    bottom: 40px;
+    right: 50%;
+}
+
 .navbar-card-active {
     background-color: black;
     opacity: 0.5;
