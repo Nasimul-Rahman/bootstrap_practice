@@ -1,0 +1,13 @@
+.about-us {
+    width: 100vw;
+    height: 100vh;
+    background-color: whitesmoke;
+    overflow: hidden;
+}
+
+.sep {
+    background-color:#eb5058;
+    height: 5px;
+    z-index: 3;
+    border-radius: 15px;
+}

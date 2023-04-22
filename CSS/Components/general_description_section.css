@@ -1,0 +1,14 @@
+.general-description {
+    width: 100vw;
+    height: 70vh;
+    background-color: whitesmoke;
+    overflow: hidden;
+}
+
+.general-description-text-container {
+    width: 90%;
+    height: 90%;
+    color: white;
+    background-color: #eb5058;
+    overflow: hidden;
+}
