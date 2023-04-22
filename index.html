@@ -29,6 +29,7 @@
     <!-- Local Javascript -->
     <script src="JS/main.js" defer></script>
     <script src="JS/scroll.js" defer></script>
+    <script src="JS/logo.js" defer></script>
 </head>
 <body>
 
@@ -46,9 +47,9 @@
 
     <header class="header p-3 position-absolute start-0 top-0 end-0">
         <div class="d-flex justify-content-between align-items-center">
-            <div class="d-flex align-items-center">
+            <div class="d-flex align-items-center" id="logo">
                 <img src="CSS/media/logo_with_background.jpg" alt="" class="shadow-lg img-fluid m-2 rounded-5" width="40px">
-                <a href="#" class="text-decoration-none text-white fs-4 fw-bold">Comilla Rotography Process</a>
+                <a href="index.html" class="text-decoration-none text-white fs-4 fw-bold">Comilla Rotography Process</a>
             </div>
             <div>
                 <button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
@@ -97,65 +98,6 @@
               </svg>
         </button>
     </nav>
-
-    <!-- Flyout Navigation End -->
-
-     <!-- <nav class="collapse navbar-collapse dropdown-nav" id="navbar">
-
-        <div class="container-fluid d-flex">
-
-            <div class="row align-items-start">
-
-                <div class="col-12 col-sm-4 ">
-                    <a href="#" class="navbar-card row text-decoration-none m-4 p-3 align-items-center">
-                        <div class="col-2 col-sm-12 mb-4">
-                            <img src="CSS/media/image_placeholder.png" alt="logo"
-                            class="img-fluid" width:"590" height="746" loading="lazy">
-                        </div>
-                        <div class="col-10">
-                            <h4 class="text-dark fw-bolder">Project Name</h4>
-                            <p>project description</p>
-                            <p>Learn More</p>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-12 col-sm-4">
-                    <a href="#" class="navbar-card row text-decoration-none m-4 p-3 align-items-center">
-                        <div class="col-2 col-sm-12 mb-4">
-                            <img src="CSS/media/image_placeholder.png" alt="logo"
-                            class="img-fluid" width:"590" height="746" loading="lazy">
-                        </div>
-                        <div class="col-10">
-                            <h4 class="text-light fw-bolder">Project Name</h4>
-                            <p>project description</p>
-                            <p>Learn More</p>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-12 col-sm-4">
-                    <a href="#" class="navbar-card row text-decoration-none m-4 p-3 align-items-center">
-                        <div class="col-2 col-sm-12 mb-4">
-                            <img src="CSS/media/image_placeholder.png" alt="logo"
-                            class="img-fluid" width:"590" height="746" loading="lazy">
-                        </div>
-                        <div class="col-10">
-                            <h4 class="text-dark fw-bolder">Project Name</h4>
-                            <p>project description</p>
-                            <p>Learn More</p>
-                        </div>
-                    </a>
-                </div>
-            </div>
-
-            <button class="navbar-toggler text-white dropdown-nav__closeNavBtn" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
-                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-x-lg" viewBox="0 0 16 16">
-                    <path d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8 2.146 2.854Z"/>
-                  </svg>
-            </button>
-        </div>
-     </nav> -->
-
-     <!-- Flyout Navigation End -->
 
      <!-- Hero Start -->
 
@@ -290,6 +232,7 @@
             </div>
             <div class="contact_us_card">
                 <p>Google Map</p>
+                <div class="mapouter"><div class="gmap_canvas"><iframe width="500" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=Bashundhara, Dhaka, Bangladesh&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://2yu.co">2yu</a><br><style>.mapouter{position:relative;text-align:right;height:500px;width:500px;}</style><a href="https://embedgooglemap.2yu.co">html embed google map</a><style>.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:500px;}</style></div></div>
             </div>
         </div>
         </section>
