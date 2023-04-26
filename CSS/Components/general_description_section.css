@@ -3,12 +3,55 @@
     height: 70vh;
     background-color: whitesmoke;
     overflow: hidden;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .general-description-text-container {
     width: 90%;
-    height: 90%;
+    height: auto;
     color: white;
     background-color: #eb5058;
     overflow: hidden;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding: 24px;
+}
+
+.general-description-text-container img {
+    width: 100px;
+}
+
+.general-description-text-container h2 {
+    display: none;
+}
+
+@media screen and (min-width: 850px) {
+    .general-description {
+        height: 100vh;
+    }
+    .general-description-text-container {
+        width: 100%;
+        flex-direction: row;
+        padding: 40px;
+    }
+
+    .general-description-text-container img {
+        width: 30%;
+    }
+
+    .general-description-text-container-text {
+        width: 50%;
+    }
+
+    .general-description-text-container h2 {
+        display: block;
+        font-weight: bold;
+    }
 }
