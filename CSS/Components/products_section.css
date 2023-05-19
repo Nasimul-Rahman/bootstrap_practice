@@ -1,5 +1,5 @@
 .products {
-    height: 100vh;
+    height: auto;
     width: 100vw;
     background-color: whitesmoke;
 
@@ -14,7 +14,7 @@
     flex-direction: column;
     justify-content: start;
     align-items: center;
-    width: 90%;
+    width: 85%;
     height: auto;
     overflow-x: hidden;
 }
@@ -38,4 +38,14 @@
 
 .product_card_text {
     width: 65%;
+}
+
+@media screen and (min-width: 850px) {
+    .products_container {
+        flex-direction: row;
+    }
+
+    .phone-btn {
+        display: none;
+    }
 }

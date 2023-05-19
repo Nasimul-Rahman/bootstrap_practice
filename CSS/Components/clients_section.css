@@ -1,5 +1,5 @@
 .clients {
-    height: 100vh;
+    height: auto;
     width: 100%;
     background-color: whitesmoke;
 
@@ -10,9 +10,8 @@
 }
 
 .clients_container {
-    width: 90%;
+    width: 85%;
     height: 100%;
-    overflow-y: scroll;
     overflow-x: hidden;
 
     display: flex;
@@ -34,4 +33,11 @@
 
     width: 100%;
     min-height: 75%;
+}
+
+@media screen and (min-width: 850px) {
+    .clients_container {
+        flex-direction: row;
+        overflow-y: hidden;
+    }
 }
