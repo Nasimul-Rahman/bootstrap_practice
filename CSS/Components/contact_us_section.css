@@ -9,12 +9,15 @@
 .contact_us h3 {
     color: whitesmoke;
     text-align: center;
+    margin: 20px;
+    margin-bottom: 40px;
 }
 
 .contact_us_card_container {
     display: flex;
     justify-content: space-around;
-    align-items: center;
+    align-items: start;
+    margin-bottom: 40px;
 }
 
 .contact_us_card p {

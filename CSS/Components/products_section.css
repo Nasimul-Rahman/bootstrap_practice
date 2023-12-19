@@ -15,7 +15,6 @@
     justify-content: start;
     align-items: center;
     width: 85%;
-    height: auto;
     overflow-x: hidden;
 }
 
@@ -43,6 +42,16 @@
 @media screen and (min-width: 850px) {
     .products_container {
         flex-direction: row;
+    }
+
+    .product_card {
+        flex-direction: column;
+        min-height: 500px;
+    }
+
+    .product_card_img {
+        width: 100%;
+        height: 300px;
     }
 
     .phone-btn {

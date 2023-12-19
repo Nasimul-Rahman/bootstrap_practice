@@ -25,9 +25,24 @@ body {
 
 .hidden {
     opacity: 0;
-    transition: ease 1s;
+    transition: ease 2s;
+}
+
+.hidden_general_description {
+    transform: translateX(300px);
+}
+
+.hidden_product_card {
+    transform: translateY(150px);
+}
+
+.hidden_gallery {
+    transform: translateX(-300px);
+    transition: ease 2s;
 }
 
 .show {
     opacity: 1;
+    transition: ease 2s;
+    transform: translate(0px ,0px);
 }

@@ -18,3 +18,47 @@
     background-color: black;
     opacity: 0.5;
 }
+
+.header-lg {
+    z-index: 100;
+    width: 100vw;
+    display: none;
+    padding-top: 30px;
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.header-lg-inner-container {
+    height: 10vh;
+}
+
+.header-lg-logo {
+    border-radius: 50%;
+    width: 150px;
+    position: relative;
+    top: 50px;
+}
+
+.header-lg-items-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 30vw;
+}
+
+.header-lg-item {
+    color: whitesmoke;
+    text-decoration: none;
+    z-index: 1000;
+}
+
+@media screen and (min-width:992px) {
+    .header {
+        display: none;
+    }
+
+    .header-lg {
+        display: block;
+    }
+
+}

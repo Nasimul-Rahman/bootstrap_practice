@@ -30,6 +30,7 @@
     <script src="JS/main.js" defer></script>
     <script src="JS/scroll.js" defer></script>
     <script src="JS/logo.js" defer></script>
+    <script src="JS/gallery.js" defer></script>
 
     <!-- Favicon -->
     <link rel="icon" type="image/x-icon" href="CSS/media/CRP_logo-removebg-preview.png">
@@ -63,6 +64,22 @@
             </div>
         </div>
 
+    </header>
+
+    <header class="header-lg position-absolute start-0 top-0 end-0">
+        <div class="header-lg-inner-container d-flex justify-content-around align-items-center">
+            <div class="header-lg-items-container">
+                <a href="index.html" class="header-lg-item">Home</a>
+                <a href="about_us.html" class="header-lg-item">About Us</a>
+            </div>
+            <div class="d-flex align-items-center" id="logo">
+                <img src="CSS/media/logo_with_background.jpg" alt="" class="header-lg-logo">
+            </div>
+            <div class="header-lg-items-container">
+                <a href="our_products.html" class="header-lg-item">Products</a>
+                <a href="gallery.html" class="header-lg-item">Gallery</a>
+            </div>
+        </div>
     </header>
 
     <!-- Header End -->
@@ -100,23 +117,26 @@
      <!-- Hero Start -->
 
      <section class="hidden hero">
-        <div class="hero-overlay"></div>
+        <!-- <div class="hero-overlay"></div> -->
 
-        <div class="hero-text h-100 w-75 container-xxl position-relative">
-            <div class="d-flex h-100 align-items-center justify-content-start">
-                <div>
-                    <h1 class="fw-bold">Comilla Rotography Process</h1>
-                    <div class="sep w-25 mt-2 mb-2"></div>
-                    <p>Welcome to the future of rotogravure printing. Welcome to Comilla Rotography Process.</p>
+        <div class="hero-container">
+
+            <div class="hero-text">
+                <div class="hero-text-container">
+                    <div class="hero-text-animation">
+                        <h1 class="fw-bold">Comilla Rotography Process</h1>
+                        <div class="sep w-25 mt-2 mb-2"></div>
+                        <p>Welcome to the future of rotogravure printing. Welcome to Comilla Rotography Process.</p>
+                    </div>
                 </div>
             </div>
-        </div>
 
-        <div class="hero-scroll-btn w-100 d-flex justify-content-center align-items-center flex-column">
-            <a href="#general-description" class="text-decoration-none">Explore Now</a>
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-down-short" viewBox="0 0 16 16">
-                <path fill-rule="evenodd" d="M8 4a.5.5 0 0 1 .5.5v5.793l2.146-2.147a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-3-3a.5.5 0 1 1 .708-.708L7.5 10.293V4.5A.5.5 0 0 1 8 4z"/>
-            </svg>
+            <div class="hero-scroll-btn">
+                <a href="#general-description" class="text-decoration-none">Explore Now</a>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-down-short" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M8 4a.5.5 0 0 1 .5.5v5.793l2.146-2.147a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-3-3a.5.5 0 1 1 .708-.708L7.5 10.293V4.5A.5.5 0 0 1 8 4z"/>
+                </svg>
+            </div>
         </div>
      </section>
 
@@ -125,7 +145,7 @@
      <!-- General Description Start -->
 
      <section class="general-description" id="general-description">
-        <div class="hidden h-75 general-description-text-container shadow-sm">
+        <div class="hidden hidden_general_description h-75 general-description-text-container shadow-sm">
             <img src="CSS/media/logo_with_background.jpg" class="shadow-lg img-fluid rounded-circle m-2" alt="CRP logo">
             <div class="d-flex justify-content-center align-items-center flex-column general-description-text-container-text">
                 <h2>Message From Chairman</h2>
@@ -144,7 +164,7 @@
      <section class="products" id="products">
         <h2>Our Products</h2>
         <div class="sep w-25 m-4"></div>
-        <div class="products_container py-3">
+        <div class="hidden hidden_product_card products_container py-3">
             <div class="hidden shadow-sm product_card m-3">
                 <div class="product_card_img"></div>
                 <div class="product_card_text m-2 p-2">
@@ -167,7 +187,7 @@
                 </div>
             </div>
         </div>
-        <button type="button" class="big-btn hidden btn btn-danger m-3 p-3" onclick="window.location.href = 'our_products.html'">See More</button>
+        <button type="hidden button" class="big-btn hidden btn btn-danger m-3 p-3" onclick="window.location.href = 'our_products.html'">See More</button>
      </section>
 
      <!-- Products Section End -->
@@ -207,9 +227,9 @@
         <h2>Gallery</h2>
         <div class="sep w-25 m-4"></div>
         <section class="image_gallery">
-            <img src="CSS/media/Grid_Gallery_Img/393793555_1664256340760452_6781330112252400244_n.jpg" class="image_gallery_card hidden">
-            <img src="CSS/media/Grid_Gallery_Img/393815903_724027002876407_5354495391350514355_n.jpg" class="image_gallery_card hidden">
-            <img src="CSS/media/Grid_Gallery_Img/393829921_1448821439010471_1570419188108653772_n.jpg" class="image_gallery_card hidden">  
+            <img src="CSS/media/Grid_Gallery_Img/393793555_1664256340760452_6781330112252400244_n.jpg" class="image_gallery_card hidden hidden_gallery">
+            <img src="CSS/media/Grid_Gallery_Img/393815903_724027002876407_5354495391350514355_n.jpg" class="image_gallery_card hidden hidden_gallery">
+            <img src="CSS/media/Grid_Gallery_Img/393829921_1448821439010471_1570419188108653772_n.jpg" class="image_gallery_card hidden hidden_gallery">  
         </section>
         <button type="button" class="hidden btn btn-danger m-3 p-3" onclick="window.location.href = 'gallery.html'">See More</button>
     </section>
@@ -223,14 +243,12 @@
         <div class="contact_us_card_container">
             <div class="contact_us_card">
                 <p>Address</p>
+                <p>129 New Eskaton Road, Dhaka 1000</p>
+                <div class="mapouter"><div style="width: 100%"><iframe width="100%" height="250px" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Tropical%20NMG%20Tower+(Tropical%20NMG%20Tower)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.maps.ie/population/">Calculate population in area</a></iframe></div></div>
             </div>
             <div class="contact_us_card">
                 <p>Email</p>
-            </div>
-            <div class="contact_us_card">
-                <p>Google Map</p>
-                <div class="mapouter"><div style="width: 100%"><iframe width="100%" height="250px" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Tropical%20NMG%20Tower+(Tropical%20NMG%20Tower)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.maps.ie/population/">Calculate population in area</a></iframe></div></div>
-                
+                <a href="#">crp@gmail.com</a>
             </div>
         </div>
         </section>
