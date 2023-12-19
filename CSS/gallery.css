@@ -1,3 +1,7 @@
+.hero_gallery {
+    height: 30vh;
+}
+
 .gallery {
     width: 100%;
     height: auto;
@@ -50,8 +54,40 @@
 }
 
 @media screen and (min-width: 850px) {
+    .hero_gallery {
+        height: 90vh;
+        
+    }
+
     .image_modal img {
         width: 30%;
         height: auto;
     }
+}
+
+/* For Image Open and Close Animation */
+
+.fadeIn {
+    animation: fadeIn 1s;
+}
+
+.fadeOut {
+    animation: fadeOut 1s;
+}
+
+
+@keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+  } 
+
+@keyframes fadeOut {
+0% {opacity: 1;}
+100% {opacity: 0;}
+} 
+
+@keyframes slideDown {
+    0% {bottom: 100px;}
+    100% {bottom: 0px;}
+    
 }
